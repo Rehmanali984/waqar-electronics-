@@ -1,0 +1,8 @@
+{
+  "name": "waqar-electronics-admin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check admin/app.js && node --check api/github.js && node --check admin/sw.js"
+  }
+}

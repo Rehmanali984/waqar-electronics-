@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="description" content="Offline-first Waqar Electronics administration">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <title>Waqar Electronics · Admin</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Waqar Electronics home">
+        <span class="brand-mark">W</span>
+        <span>waqar<span>electronics</span></span>
+      </a>
+      <p class="eyebrow">Operations console</p>
+      <nav aria-label="Main navigation">
+        <a class="nav-item active" href="#dashboard" data-view="dashboard"><span>⌂</span> Overview</a>
+        <a class="nav-item" href="#products" data-view="products"><span>▦</span> Products</a>
+        <a class="nav-item" href="#orders" data-view="orders"><span>↗</span> Orders <b class="nav-count" id="orderCount">0</b></a>
+        <a class="nav-item" href="#settings" data-view="settings"><span>⚙</span> Store settings</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="connection-card">
+          <span class="status-dot" id="sideStatusDot"></span>
+          <div><strong id="sideStatus">Online</strong><small id="sideStatusHint">Changes sync automatically</small></div>
+        </div>
+        <button class="install-button hidden" id="installButton">Install app</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Monday, September 7, 2026</p>
+          <h1 id="pageTitle">Good morning, Waqar</h1>
+        </div>
+        <div class="top-actions">
+          <div class="sync-pill" id="syncPill"><span class="status-dot"></span><span id="syncLabel">All changes synced</span></div>
+          <button class="avatar" title="Account">WA</button>
+        </div>
+      </header>
+
+      <section class="view" id="dashboardView" data-panel="dashboard">
+        <div class="welcome-row">
+          <div><h2>Store overview</h2><p class="muted">Keep your catalogue healthy and orders moving.</p></div>
+          <button class="button primary" data-action="new-product">＋ Add product</button>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card"><div class="metric-icon blue">↗</div><p>Today’s orders</p><strong id="metricOrders">0</strong><span class="trend positive">Live from this device</span></article>
+          <article class="metric-card"><div class="metric-icon green">▦</div><p>Active products</p><strong id="metricProducts">0</strong><span class="trend">In your local catalogue</span></article>
+          <article class="metric-card"><div class="metric-icon amber">◷</div><p>Pending sync</p><strong id="metricPending">0</strong><span class="trend" id="metricPendingHint">Nothing waiting</span></article>
+          <article class="metric-card"><div class="metric-icon purple">⌁</div><p>Store status</p><strong class="small-value" id="metricStore">Open</strong><span class="trend positive">Accepting orders</span></article>
+        </div>
+        <div class="content-grid">
+          <article class="panel"><div class="panel-heading"><div><h3>Recent orders</h3><p>Latest activity on this device</p></div><a href="#orders">View all</a></div><div class="table-wrap"><table><thead><tr><th>Order</th><th>Customer</th><th>Item</th><th>Status</th><th>Total</th></tr></thead><tbody id="recentOrders"></tbody></table></div></article>
+          <article class="panel checklist"><div class="panel-heading"><div><h3>Store checklist</h3><p>Small steps, better storefront</p></div><span class="progress-label" id="checklistProgress">0/3</span></div><label><input type="checkbox" data-check="profile"> <span><strong>Complete your store profile</strong><small>Add contact details and opening hours</small></span></label><label><input type="checkbox" data-check="catalogue"> <span><strong>Add your first product</strong><small>Show customers what you sell</small></span></label><label><input type="checkbox" data-check="install"> <span><strong>Install the admin app</strong><small>Manage your store even without signal</small></span></label></article>
+        </div>
+        <article class="offline-banner" id="offlineBanner"><span class="offline-icon">⌁</span><div><strong>You’re working offline</strong><p>Changes are saved on this device and will sync when your connection returns.</p></div><button class="button outline" data-action="retry">Try again</button></article>
+      </section>
+
+      <section class="view hidden" id="productsView" data-panel="products">
+        <div class="welcome-row"><div><h2>Products</h2><p class="muted">Manage the items shown in your storefront.</p></div><button class="button primary" data-action="new-product">＋ Add product</button></div>
+        <article class="panel"><div class="toolbar"><label class="search"><span>⌕</span><input id="productSearch" placeholder="Search products" type="search"></label><select id="productFilter"><option value="all">All products</option><option value="active">Active</option><option value="low">Low stock</option></select></div><div class="product-list" id="productList"></div></article>
+      </section>
+
+      <section class="view hidden" id="ordersView" data-panel="orders">
+        <div class="welcome-row"><div><h2>Orders</h2><p class="muted">Review and update customer orders.</p></div><button class="button outline" data-action="retry">↻ Sync now</button></div>
+        <article class="panel"><div class="toolbar"><label class="search"><span>⌕</span><input id="orderSearch" placeholder="Search order or customer" type="search"></label><select id="orderFilter"><option value="all">All statuses</option><option value="Processing">Processing</option><option value="Ready">Ready</option><option value="Delivered">Delivered</option></select></div><div class="table-wrap"><table><thead><tr><th>Order</th><th>Customer</th><th>Items</th><th>Status</th><th>Total</th><th></th></tr></thead><tbody id="ordersTable"></tbody></table></div></article>
+      </section>
+
+      <section class="view hidden" id="settingsView" data-panel="settings">
+        <div class="welcome-row"><div><h2>Store settings</h2><p class="muted">These details appear across your storefront.</p></div><span class="saved-note" id="savedNote">Saved locally</span></div>
+        <article class="panel settings-form"><div class="form-section"><h3>Store profile</h3><p>Tell customers how to reach you.</p><div class="form-grid"><label>Store name<input id="settingName" value="Waqar Electronics"></label><label>Phone number<input id="settingPhone" value="+92 300 0000000"></label><label class="wide">Store description<textarea id="settingDescription" rows="3">Reliable electronics, accessories, and friendly service.</textarea></label><label>Opening hours<input id="settingHours" value="Mon–Sat · 9:00 AM – 8:00 PM"></label><label>Currency<select id="settingCurrency"><option>PKR · Pakistani Rupee</option><option>USD · US Dollar</option></select></label></div><button class="button primary" data-action="save-settings">Save changes</button></div><div class="form-section"><h3>GitHub feedback</h3><p>Create a private issue for a product or store problem. Your access token stays on the server.</p><div class="form-grid"><label class="wide">Issue title<input id="issueTitle" placeholder="e.g. Product image needs updating"></label><label class="wide">Details<textarea id="issueBody" rows="3" placeholder="What should the team know?"></textarea></label></div><button class="button outline" data-action="send-feedback">Send feedback</button><span class="form-message" id="feedbackMessage"></span></div></article>
+      </section>
+    </main>
+    <div class="toast hidden" id="toast" role="status"></div>
+    <dialog id="productDialog"><form method="dialog" id="productForm"><div class="dialog-heading"><div><p class="eyebrow">Catalogue</p><h2>Add a product</h2></div><button value="cancel" class="close">×</button></div><label>Product name<input id="productName" required placeholder="e.g. Wireless headphones"></label><div class="form-grid"><label>Category<input id="productCategory" required placeholder="Audio"></label><label>Price (PKR)<input id="productPrice" required type="number" min="0" placeholder="4500"></label><label>Stock<input id="productStock" required type="number" min="0" placeholder="12"></label><label>Status<select id="productStatus"><option>Active</option><option>Draft</option></select></label></div><div class="dialog-actions"><button class="button outline" value="cancel">Cancel</button><button class="button primary" value="default">Add product</button></div></form></dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
