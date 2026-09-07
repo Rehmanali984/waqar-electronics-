@@ -4,6 +4,16 @@ const STORE_KEY_CART = 'waqar_cart_items_v2';
 const STORE_KEY_WISHLIST = 'waqar_wishlist_items_v2';
 const STORE_KEY_COMPARE = 'waqar_compare_items_v2';
 
+function escapeHTML(value) {
+  return String(value).replace(/[&<>'"]/g, character => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    "'": '&#39;',
+    '"': '&quot;'
+  }[character]));
+}
+
 const App = {
   cart: [],
   wishlist: [],
@@ -326,7 +336,7 @@ const App = {
             <button onclick="App.addToCart(${prod.id}); App.closeQuickView();" class="flex-1 bg-secondary hover:bg-on-secondary-fixed-variant text-on-secondary py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-md transition-all">
               <span class="material-symbols-outlined text-[18px]">shopping_cart</span> Add to Cart
             </button>
-            <a href="https://wa.me/923008983094?text=Salam,%20I%20am%20interested%20in%20buying%20${encodeURIComponent(prod.title)}%20for%20${formatPKR(prod.price)}" target="_blank" class="bg-on-tertiary-container hover:brightness-110 text-on-tertiary px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-1 transition-all">
+            <a href="https://wa.me/923008983094?text=Salam,%20I%20am%20interested%20in%20buying%20${encodeURIComponent(prod.title)}%20for%20${formatPKR(prod.price)}" target="_blank" rel="noopener noreferrer" class="bg-on-tertiary-container hover:brightness-110 text-on-tertiary px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-1 transition-all">
               <span class="material-symbols-outlined text-[18px]">chat</span> WhatsApp
             </a>
           </div>
@@ -364,7 +374,7 @@ const App = {
         ).slice(0, 6);
 
         if (matches.length === 0) {
-          dropdown.innerHTML = `<div class="p-3 text-xs text-on-surface-variant text-center">No products found matching "${query}"</div>`;
+          dropdown.innerHTML = `<div class="p-3 text-xs text-on-surface-variant text-center">No products found matching "${escapeHTML(query)}"</div>`;
         } else {
           dropdown.innerHTML = matches.map(m => `
             <a href="category.html?cat=${m.category}" class="flex items-center gap-3 p-2.5 hover:bg-surface-container-low transition-colors border-b border-surface-container last:border-0">
