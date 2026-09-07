@@ -1,0 +1,207 @@
+/* Waqar Electronics - Custom Styles & Theme Enhancements */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+:root {
+  --color-primary: #131b2e;
+  --color-secondary: #8a1538;
+  --color-secondary-hover: #5e0e26;
+  --color-secondary-container: #b02350;
+  --color-surface: #f8f9ff;
+  --color-surface-low: #eff4ff;
+  --color-surface-lowest: #ffffff;
+  --color-surface-high: #dce9ff;
+  --color-tertiary: #009668;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-surface);
+  color: #0b1c30;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #eff4ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8a1538;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Glassmorphism effects */
+.glass-header {
+  background: rgba(19, 27, 46, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Badge pulse animation */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+/* Product Card Hover effects */
+.product-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(138, 21, 56, 0.12), 0 8px 16px -4px rgba(11, 28, 48, 0.06);
+}
+
+/* Shimmer Loading Animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #eff4ff 25%, #dce9ff 50%, #eff4ff 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Toast Notifications */
+#toast-container {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  transform: translateX(120%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast.show {
+  transform: translateX(0);
+}
+
+/* Modal backdrop animation */
+.modal-backdrop {
+  background-color: rgba(11, 28, 48, 0.65);
+  backdrop-filter: blur(4px);
+}
+
+/* ================= SITE-WIDE MOVING LIGHT WATERMARK ================= */
+#site-watermark {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.watermark-inner {
+  position: relative;
+  width: min(46vw, 620px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watermark-inner img {
+  width: 100%;
+  display: block;
+  opacity: 0.07;
+  filter:
+    drop-shadow(0 30px 40px rgba(0,0,0,0.35))
+    drop-shadow(-12px 0 25px rgba(255,255,255,0.22))
+    drop-shadow(12px 0 25px rgba(138,21,56,0.28));
+  animation: watermarkGlow 6s ease-in-out infinite;
+}
+
+/* The moving light beam */
+.watermark-sweep {
+  position: absolute;
+  inset: -20% -60%;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 35%,
+    rgba(246,219,226,0.0) 42%,
+    rgba(246,219,226,0.55) 50%,
+    rgba(176,35,80,0.35) 54%,
+    transparent 62%
+  );
+  mix-blend-mode: soft-light;
+  transform: translateX(-60%) rotate(8deg);
+  animation: watermarkSweep 5.5s cubic-bezier(0.45,0,0.2,1) infinite;
+}
+
+@keyframes watermarkGlow {
+  0%, 100% { opacity: 0.065; transform: scale(1); }
+  50%      { opacity: 0.1;   transform: scale(1.015); }
+}
+
+@keyframes watermarkSweep {
+  0%   { transform: translateX(-60%) rotate(8deg); }
+  50%  { transform: translateX(60%)  rotate(8deg); }
+  100% { transform: translateX(-60%) rotate(8deg); }
+}
+
+@media (min-width: 1600px) {
+  .watermark-inner {
+    width: min(40vw, 720px);
+  }
+}
+
+@media (max-width: 900px) {
+  .watermark-inner {
+    width: min(70vw, 420px);
+  }
+  .watermark-inner img {
+    opacity: 0.05;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .watermark-inner img,
+  .watermark-sweep {
+    animation: none !important;
+  }
+  .watermark-inner img {
+    opacity: 0.06;
+  }
+  .watermark-sweep {
+    display: none;
+  }
+}
+
