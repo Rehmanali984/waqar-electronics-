@@ -1,0 +1,22 @@
+{
+  "slug": "small-appliances",
+  "name": "Small Home Appliances",
+  "icon": "blender",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "attrLabel": "Category",
+  "bannerSubtitle": "Air fryers, food factories, heavy duty irons, vacuum cleaners and juicer blenders.",
+  "attributes": [
+    "Air Fryer (5L-8L)",
+    "Food Factory 10-in-1",
+    "Heavy Dry Iron",
+    "Drum Vacuum 21L"
+  ],
+  "brands": [
+    "Philips",
+    "Westpoint",
+    "Anex",
+    "Dawlance",
+    "Panasonic",
+    "Black & Decker"
+  ]
+}
