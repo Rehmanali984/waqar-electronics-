@@ -1,0 +1,31 @@
+{
+  "id": 304,
+  "category": "televisions",
+  "brand": "Haier",
+  "title": "Haier 43\" Smart Bezel-less FHD Google TV (H43K800F)",
+  "model": "H43K800F",
+  "attr_value": "43 inch",
+  "price": 76500,
+  "was_price": 84000,
+  "emi": 6375,
+  "rating": 4.7,
+  "reviews": 73,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "warranty": "2 Years Panel Warranty",
+  "specs": [
+    {
+      "label": "Bezel",
+      "value": "Ultra-Slim Metal Bezel-less"
+    },
+    {
+      "label": "Built-in",
+      "value": "Chromecast & Google Assistant"
+    },
+    {
+      "label": "Sound",
+      "value": "Dolby Digital Audio Decoding"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
