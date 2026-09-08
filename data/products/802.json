@@ -1,0 +1,32 @@
+{
+  "id": 802,
+  "category": "kitchen-appliances",
+  "brand": "Canon",
+  "title": "Canon High Suction Auto-Clean Kitchen Chimney Hood (CN-9000)",
+  "model": "CN-9000-Hood",
+  "attr_value": "Auto Chimney Hood",
+  "price": 44000,
+  "was_price": 49500,
+  "emi": 3666,
+  "rating": 4.9,
+  "reviews": 33,
+  "image": "images/kitchen-hoods.jpg",
+  "icon": "heat_pump",
+  "warranty": "2 Years Brand Warranty",
+  "specs": [
+    {
+      "label": "Suction",
+      "value": "1250 m³/hr High Power Copper Motor"
+    },
+    {
+      "label": "Sensor",
+      "value": "Wave Motion Gesture Hand Sensor"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Thermal Auto Clean Oil Collector"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
