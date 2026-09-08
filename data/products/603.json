@@ -1,0 +1,32 @@
+{
+  "id": 603,
+  "category": "air-coolers",
+  "brand": "Canon",
+  "title": "Canon 35L Slim Tower Room Air Cooler with Remote",
+  "model": "CN-Cool-35",
+  "attr_value": "35L",
+  "price": 22500,
+  "was_price": 25500,
+  "emi": 1875,
+  "rating": 4.6,
+  "reviews": 31,
+  "image": "images/air-coolers.jpg",
+  "icon": "air",
+  "warranty": "1 Year Warranty",
+  "specs": [
+    {
+      "label": "Design",
+      "value": "Space Saving Slim Tower"
+    },
+    {
+      "label": "Control",
+      "value": "Touch Panel & Wireless Remote"
+    },
+    {
+      "label": "Speed",
+      "value": "3-Speed Fan with Auto Louvers"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
