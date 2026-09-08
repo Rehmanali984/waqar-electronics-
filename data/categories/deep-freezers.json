@@ -1,0 +1,22 @@
+{
+  "slug": "deep-freezers",
+  "name": "Deep Freezers",
+  "icon": "mode_heat",
+  "image": "images/deep-freezers.jpg",
+  "attrLabel": "Capacity (Cubic Feet)",
+  "bannerSubtitle": "Single & Double Door Convertible Inverter Freezers with 100-hour cooling retention.",
+  "attributes": [
+    "10 cu ft",
+    "12 cu ft",
+    "14 cu ft",
+    "16 cu ft",
+    "18 cu ft"
+  ],
+  "brands": [
+    "Waves",
+    "Dawlance",
+    "Haier",
+    "PEL",
+    "Orient"
+  ]
+}
