@@ -1,0 +1,28 @@
+{
+  "id": 1002,
+  "category": "small-appliances",
+  "brand": "Westpoint",
+  "title": "Westpoint 10-in-1 Deluxe Food Factory & Blender Processor (WF-8814)",
+  "model": "WF-8814",
+  "attr_value": "Food Factory 10-in-1",
+  "price": 24500,
+  "was_price": 28000,
+  "emi": 2041,
+  "rating": 4.7,
+  "reviews": 110,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "icon": "blender",
+  "warranty": "2 Years Official Warranty",
+  "specs": [
+    {
+      "label": "Motor",
+      "value": "800W Heavy Duty Pure Copper Motor"
+    },
+    {
+      "label": "Functions",
+      "value": "Chopper, Juicer, Blender, Dough Kneader, Grinder, Slicer"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
