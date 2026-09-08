@@ -1,0 +1,35 @@
+{
+  "id": 104,
+  "category": "air-conditioners",
+  "brand": "Dawlance",
+  "title": "Dawlance 1.5 Ton Chrome Pro Heat & Cool Inverter AC (30 Chrome)",
+  "model": "Mega-T3-30",
+  "attr_value": "1.5 Ton",
+  "price": 164000,
+  "was_price": 179000,
+  "emi": 13666,
+  "rating": 4.7,
+  "reviews": 64,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCRrpXp5vGlBLOxDOo_VeIAOYrcZ6jarRnLh-qcGNkMVw1Hf5t6q3wAPaemKBYhg5LEbfMiDlxZ988v64-PWwooAwiQH2ClVCcRRqbFOFfUBpdJUacjhaHsC01sszdFSY8MbZ56ibQXcsFkROhVvWHa959Fk0gDm64NHWbq14w5pBuBQQJjR1op99_-TYyIrW_T5LRt7HtiTY6Eg6KdyIpKEBjPfe2qgYrN9wgLWVvvMDI9658QNi32fA",
+  "warranty": "12 Years Compressor + 4 Years PCB Warranty",
+  "specs": [
+    {
+      "label": "Compressor",
+      "value": "Gold Fin Condenser"
+    },
+    {
+      "label": "Dual Filtration",
+      "value": "Active Carbon Filter"
+    },
+    {
+      "label": "Voltage",
+      "value": "Operates down to 130V"
+    },
+    {
+      "label": "Mode",
+      "value": "Turbo Cool & Heat"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
