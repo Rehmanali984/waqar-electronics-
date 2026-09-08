@@ -1,0 +1,21 @@
+{
+  "slug": "kitchen-appliances",
+  "name": "Kitchen Hobs & Hoods",
+  "icon": "skillet",
+  "image": "images/kitchen-hobs.jpg",
+  "attrLabel": "Type",
+  "bannerSubtitle": "Tempered glass gas hobs, auto-ignition stoves and high-suction chimney hoods.",
+  "attributes": [
+    "2-Burner Hob",
+    "3-Burner Hob",
+    "Auto Chimney Hood",
+    "Cooking Range 34\""
+  ],
+  "brands": [
+    "Nasgas",
+    "Canon",
+    "Dawlance",
+    "Haier",
+    "Gaba National"
+  ]
+}
