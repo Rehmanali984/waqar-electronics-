@@ -1,0 +1,23 @@
+{
+  "slug": "microwave-ovens",
+  "name": "Microwave Ovens",
+  "icon": "microwave",
+  "image": "images/microwave-ovens.jpg",
+  "attrLabel": "Volume",
+  "bannerSubtitle": "Solo, Grill & Convection Baking Microwave Ovens with built-in Pakistani recipe menus.",
+  "attributes": [
+    "20L",
+    "23L",
+    "28L",
+    "30L",
+    "32L"
+  ],
+  "brands": [
+    "Dawlance",
+    "Haier",
+    "PEL",
+    "Homage",
+    "Orient",
+    "Panasonic"
+  ]
+}
