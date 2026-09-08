@@ -1,0 +1,31 @@
+{
+  "id": 204,
+  "category": "refrigerators",
+  "brand": "Samsung",
+  "title": "Samsung 20 cu ft Side-by-Side SpaceMax Smart Inverter Refrigerator",
+  "model": "RS52B3000M9",
+  "attr_value": "20 cu ft",
+  "price": 365000,
+  "was_price": 395000,
+  "emi": 30416,
+  "rating": 5,
+  "reviews": 19,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "warranty": "20 Years Digital Inverter Warranty",
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "SpaceMax High Urethane Insulation"
+    },
+    {
+      "label": "Cooling",
+      "value": "All-Around Cooling System"
+    },
+    {
+      "label": "Finish",
+      "value": "Gentle Silver Matt Stainless Steel"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": false
+}
