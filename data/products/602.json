@@ -1,0 +1,32 @@
+{
+  "id": 602,
+  "category": "air-coolers",
+  "brand": "Super Asia",
+  "title": "Super Asia Galaxy Series Heavy Air Cooler (70L Tank)",
+  "model": "Galaxy-Air-70L",
+  "attr_value": "70L",
+  "price": 34000,
+  "was_price": 38500,
+  "emi": 2833,
+  "rating": 4.8,
+  "reviews": 48,
+  "image": "images/air-coolers.jpg",
+  "icon": "air",
+  "warranty": "1 Year Warranty",
+  "specs": [
+    {
+      "label": "Tank",
+      "value": "70 Liter Mega Water Capacity"
+    },
+    {
+      "label": "Fan",
+      "value": "18\" Aerodynamic Fan Blade"
+    },
+    {
+      "label": "Body",
+      "value": "Shock-Proof Unbreakable Plastic"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
