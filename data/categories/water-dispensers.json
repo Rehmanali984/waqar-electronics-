@@ -1,0 +1,20 @@
+{
+  "slug": "water-dispensers",
+  "name": "Water Dispensers",
+  "icon": "water_drop",
+  "image": "images/water-dispensers.jpg",
+  "attrLabel": "Design",
+  "bannerSubtitle": "3-Tap Hot, Cold & Normal dispensers with built-in refrigerator cabinet or bottom load.",
+  "attributes": [
+    "3-Tap Refrigerator",
+    "2-Tap Compact",
+    "Bottom Load Inverter"
+  ],
+  "brands": [
+    "Dawlance",
+    "Haier",
+    "Orient",
+    "Homage",
+    "PEL"
+  ]
+}
