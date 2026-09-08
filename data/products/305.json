@@ -1,0 +1,31 @@
+{
+  "id": 305,
+  "category": "televisions",
+  "brand": "Ecostar",
+  "title": "Ecostar 32\" Frameless HD Smart LED TV (CX-32U571)",
+  "model": "CX-32U571",
+  "attr_value": "32 inch",
+  "price": 36000,
+  "was_price": 40000,
+  "emi": 3000,
+  "rating": 4.6,
+  "reviews": 84,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "warranty": "2 Years Official Warranty",
+  "specs": [
+    {
+      "label": "Screen",
+      "value": "Grade A+ IPS Panel"
+    },
+    {
+      "label": "Connectivity",
+      "value": "2 HDMI, 2 USB, Optical Out"
+    },
+    {
+      "label": "Smart",
+      "value": "Android 11 with YouTube & Netflix"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
