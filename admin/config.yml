@@ -1,0 +1,83 @@
+backend:
+  name: github
+  repo: Rehmanali984/waqar-electronics-
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Uploaded images are saved here and served from /images/uploads on the live site
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "data/products"
+    create: true
+    delete: true
+    identifier_field: "title"
+    slug: "{{fields.id}}"
+    summary: "{{title}} — Rs. {{price}}"
+    fields:
+      - { label: "Product ID (must be unique number)", name: "id", widget: "number", value_type: "int" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Air Conditioners", value: "air-conditioners" }
+          - { label: "Air Coolers", value: "air-coolers" }
+          - { label: "Deep Freezers", value: "deep-freezers" }
+          - { label: "Kitchen Appliances", value: "kitchen-appliances" }
+          - { label: "Microwave Ovens", value: "microwave-ovens" }
+          - { label: "Refrigerators", value: "refrigerators" }
+          - { label: "Small Appliances", value: "small-appliances" }
+          - { label: "Televisions", value: "televisions" }
+          - { label: "Washing Machines", value: "washing-machines" }
+          - { label: "Water Dispensers", value: "water-dispensers" }
+      - { label: "Brand", name: "brand", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Model", name: "model", widget: "string", required: false }
+      - { label: "Attribute Value (e.g. capacity/size shown as filter)", name: "attr_value", widget: "string", required: false }
+      - { label: "Price (Rs.)", name: "price", widget: "number", value_type: "int" }
+      - { label: "Was Price (before discount, Rs.)", name: "was_price", widget: "number", value_type: "int", required: false }
+      - { label: "Monthly Installment / EMI (Rs.)", name: "emi", widget: "number", value_type: "int", required: false }
+      - { label: "Rating (0–5)", name: "rating", widget: "number", value_type: "float", required: false }
+      - { label: "Number of Reviews", name: "reviews", widget: "number", value_type: "int", required: false }
+      - { label: "Product Image", name: "image", widget: "image" }
+      - { label: "Icon name (material icon, optional)", name: "icon", widget: "string", required: false }
+      - { label: "Warranty Text", name: "warranty", widget: "string", required: false }
+      - label: "Specifications"
+        name: "specs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+      - { label: "Featured Product?", name: "featured", widget: "boolean", default: false }
+      - { label: "Lowest Price in 30 Days?", name: "lowest_30_days", widget: "boolean", default: false }
+
+  - name: "categories"
+    label: "Categories"
+    label_singular: "Category"
+    folder: "data/categories"
+    create: true
+    delete: true
+    identifier_field: "name"
+    slug: "{{fields.slug}}"
+    summary: "{{name}}"
+    fields:
+      - { label: "Slug (used in URL, no spaces — e.g. air-conditioners)", name: "slug", widget: "string" }
+      - { label: "Category Name", name: "name", widget: "string" }
+      - { label: "Icon (material icon name)", name: "icon", widget: "string", required: false }
+      - { label: "Category Banner Image", name: "image", widget: "image", required: false }
+      - { label: "Attribute Label (e.g. Capacity, Size)", name: "attrLabel", widget: "string", required: false }
+      - { label: "Banner Subtitle Text", name: "bannerSubtitle", widget: "text", required: false }
+      - label: "Filter Attributes (e.g. 1 Ton, 1.5 Ton)"
+        name: "attributes"
+        widget: "list"
+        required: false
+      - label: "Brands"
+        name: "brands"
+        widget: "list"
+        required: false
