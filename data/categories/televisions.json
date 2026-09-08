@@ -1,0 +1,26 @@
+{
+  "slug": "televisions",
+  "name": "Smart TVs & Audio",
+  "icon": "tv",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "attrLabel": "Screen Size",
+  "bannerSubtitle": "4K UHD, QLED, OLED & Google Smart TVs from leading global brands with cinema surround audio.",
+  "attributes": [
+    "32 inch",
+    "40 inch",
+    "43 inch",
+    "50 inch",
+    "55 inch",
+    "65 inch",
+    "75 inch"
+  ],
+  "brands": [
+    "Samsung",
+    "TCL",
+    "Sony",
+    "Haier",
+    "Ecostar",
+    "Orient",
+    "Changhong Ruba"
+  ]
+}
