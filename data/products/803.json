@@ -1,0 +1,32 @@
+{
+  "id": 803,
+  "category": "kitchen-appliances",
+  "brand": "Dawlance",
+  "title": "Dawlance 5-Burner Heavy Duty Stainless Steel Cooking Range with Oven",
+  "model": "DCR-500-SS",
+  "attr_value": "Cooking Range 34\"",
+  "price": 89000,
+  "was_price": 99000,
+  "emi": 7416,
+  "rating": 4.9,
+  "reviews": 26,
+  "image": "images/cooking-range.jpg",
+  "icon": "countertops",
+  "warranty": "2 Years Official Warranty",
+  "specs": [
+    {
+      "label": "Burners",
+      "value": "5 High Output Sabaf Burners"
+    },
+    {
+      "label": "Oven",
+      "value": "Thermostat Controlled Double Glass Oven"
+    },
+    {
+      "label": "Body",
+      "value": "Heavy Gauge Stainless Steel"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
