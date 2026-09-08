@@ -1,0 +1,32 @@
+{
+  "id": 501,
+  "category": "microwave-ovens",
+  "brand": "Dawlance",
+  "title": "Dawlance 32L Pro Convection Baking Microwave Oven (DW-MD-1085)",
+  "model": "DW-MD-1085",
+  "attr_value": "32L",
+  "price": 63500,
+  "was_price": 69000,
+  "emi": 5290,
+  "rating": 4.8,
+  "reviews": 65,
+  "image": "images/microwave-ovens.jpg",
+  "icon": "microwave",
+  "warranty": "1 Year Magnetron + 1 Year Parts Warranty",
+  "specs": [
+    {
+      "label": "Cooking Functions",
+      "value": "Baking, Grilling & Solo Microwave"
+    },
+    {
+      "label": "Menu",
+      "value": "Built-in Pakistani Recipe Menu"
+    },
+    {
+      "label": "Cavity",
+      "value": "Stainless Steel Rust Free"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
