@@ -1,0 +1,24 @@
+{
+  "slug": "refrigerators",
+  "name": "Refrigerators",
+  "icon": "kitchen",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "attrLabel": "Capacity (Cubic Feet)",
+  "bannerSubtitle": "Low Voltage Startup, Glass Door Inverter & Side-by-Side Refrigerators with NatureLock freshness.",
+  "attributes": [
+    "11 cu ft",
+    "14 cu ft",
+    "16 cu ft",
+    "18 cu ft",
+    "20 cu ft"
+  ],
+  "brands": [
+    "Dawlance",
+    "Haier",
+    "PEL",
+    "Orient",
+    "Samsung",
+    "Waves",
+    "Gree"
+  ]
+}
