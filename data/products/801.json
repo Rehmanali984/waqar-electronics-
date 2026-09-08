@@ -1,0 +1,32 @@
+{
+  "id": 801,
+  "category": "kitchen-appliances",
+  "brand": "Nasgas",
+  "title": "Nasgas 3-Burner Tempered Glass Built-in Kitchen Hob (DG-380)",
+  "model": "DG-380-Glass",
+  "attr_value": "3-Burner Hob",
+  "price": 32000,
+  "was_price": 36500,
+  "emi": 2666,
+  "rating": 4.8,
+  "reviews": 49,
+  "image": "images/kitchen-hobs.jpg",
+  "icon": "skillet",
+  "warranty": "2 Years Valve & Glass Warranty",
+  "specs": [
+    {
+      "label": "Ignition",
+      "value": "Continuous Battery Auto Pulse Ignition"
+    },
+    {
+      "label": "Burners",
+      "value": "Heavy Brass Lotus Burners with Cast Iron Pan Trivets"
+    },
+    {
+      "label": "Glass",
+      "value": "8mm Thermal Shock Proof Glass"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
