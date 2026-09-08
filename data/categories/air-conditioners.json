@@ -1,0 +1,23 @@
+{
+  "slug": "air-conditioners",
+  "name": "Air Conditioners",
+  "icon": "ac_unit",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpLhuDFMtzwLUZHzABsZqRC40EoVMutIbNXXLHDnskftU5uILr5dCQadpJ8GEHR8IBOBm6RZDf1dCf-jlhrP1qlg4ULzVVh9CQylkadLfqR17ddTGzoRwa3_a9-BbiLr-DaqF7HRgB31eBUXvIs7kGFEuNzW7-6SjrjJuoGRJ_1xqmikl2ELQKY4N_dT-SKjddKfN4-FDaRwzvZ1JuKUs6GLVHGuzNIrrIx3aeeYjbWHam-yGSAgaZA",
+  "attrLabel": "Capacity",
+  "bannerSubtitle": "T3 Tropical Inverter & Non-Inverter Split ACs with Official Warranty and 0% Installment Plans.",
+  "attributes": [
+    "1 Ton",
+    "1.5 Ton",
+    "2 Ton",
+    "4 Ton"
+  ],
+  "brands": [
+    "Gree",
+    "Haier",
+    "Dawlance",
+    "Orient",
+    "PEL",
+    "TCL",
+    "Kenwood"
+  ]
+}
