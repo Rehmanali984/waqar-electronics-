@@ -1,0 +1,31 @@
+{
+  "id": 303,
+  "category": "televisions",
+  "brand": "Sony",
+  "title": "Sony BRAVIA 55\" 4K HDR Google Smart TV (KD-55X75K)",
+  "model": "KD-55X75K",
+  "attr_value": "55 inch",
+  "price": 215000,
+  "was_price": 235000,
+  "emi": 17916,
+  "rating": 4.9,
+  "reviews": 28,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "warranty": "1 Year Official Sony Warranty",
+  "specs": [
+    {
+      "label": "Processor",
+      "value": "4K Processor X1"
+    },
+    {
+      "label": "Clarity",
+      "value": "4K X-Reality PRO Upscaling"
+    },
+    {
+      "label": "Protection",
+      "value": "X-Protection PRO (Dust & Surge Proof)"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
