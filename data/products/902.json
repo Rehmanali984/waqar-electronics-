@@ -1,0 +1,28 @@
+{
+  "id": 902,
+  "category": "water-dispensers",
+  "brand": "Haier",
+  "title": "Haier Bottom Load Smart Glass Water Dispenser (HWD-306G)",
+  "model": "HWD-306G",
+  "attr_value": "Bottom Load Inverter",
+  "price": 54000,
+  "was_price": 59500,
+  "emi": 4500,
+  "rating": 4.9,
+  "reviews": 37,
+  "image": "images/water-dispensers.jpg",
+  "icon": "water_drop",
+  "warranty": "3 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Loading",
+      "value": "Easy Hidden Bottom Bottle Loading (No Heavy Lifting)"
+    },
+    {
+      "label": "Safety",
+      "value": "Child Safety Lock on Hot Water Tap"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
