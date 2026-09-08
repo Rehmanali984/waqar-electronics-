@@ -1,0 +1,35 @@
+{
+  "id": 301,
+  "category": "televisions",
+  "brand": "Samsung",
+  "title": "Samsung 65\" Crystal 4K UHD Smart TV (CU7000 Series)",
+  "model": "UA65CU7000",
+  "attr_value": "65 inch",
+  "price": 249900,
+  "was_price": 275000,
+  "emi": 20825,
+  "rating": 4.8,
+  "reviews": 31,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "warranty": "1 Year Official Samsung Pakistan Panel Warranty",
+  "specs": [
+    {
+      "label": "Resolution",
+      "value": "3840 x 2160 (4K UHD)"
+    },
+    {
+      "label": "HDR",
+      "value": "HDR 10+ PurColor Engine"
+    },
+    {
+      "label": "OS",
+      "value": "Tizen Smart TV OS"
+    },
+    {
+      "label": "Audio",
+      "value": "OTS Lite with Q-Symphony"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
