@@ -1,0 +1,32 @@
+{
+  "id": 701,
+  "category": "deep-freezers",
+  "brand": "Waves",
+  "title": "Waves 14 cu ft Inverter CoolBank Double Door Deep Freezer (WDF-314)",
+  "model": "WDF-314-CoolBank",
+  "attr_value": "14 cu ft",
+  "price": 118000,
+  "was_price": 132000,
+  "emi": 9833,
+  "rating": 4.9,
+  "reviews": 77,
+  "image": "images/deep-freezers.jpg",
+  "icon": "mode_heat",
+  "warranty": "10 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "CoolBank Tech",
+      "value": "Retains Cooling up to 100 Hours in Load Shedding"
+    },
+    {
+      "label": "Compressor",
+      "value": "T3 Inverter Copper Compressor"
+    },
+    {
+      "label": "Door",
+      "value": "Dual Glass Tops with Soft Grip Handles"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
