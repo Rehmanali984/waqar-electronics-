@@ -1,0 +1,32 @@
+{
+  "id": 1001,
+  "category": "small-appliances",
+  "brand": "Philips",
+  "title": "Philips Essential XXL Digital Air Fryer 7.2L Rapid Air Tech (HD9280)",
+  "model": "HD9280/90",
+  "attr_value": "Air Fryer (5L-8L)",
+  "price": 58500,
+  "was_price": 66000,
+  "emi": 4875,
+  "rating": 4.9,
+  "reviews": 82,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCm9tdMWpfp4TYdLEf86pxgej19uaGeQTcNxarbfwhwiz2onZ1SyFE5Vw4jMwtdObKVft1QpH1YujcrGeNAa-HQ3jml3sFOrpD_46o26NV53s9PuaqaEy6fs_clcG0bF2dlor1KCs3ae1MWJ3DKGhZ3f66oNFV6EleG0upqinZh8m6-wlmDj1vlGgPkbWuZYeNMpknZiB8p0-_7NDkIEoT88Pc5ZTQsetv0MYhQhKSgaQ13RqU3OkV9-w",
+  "icon": "skillet",
+  "warranty": "2 Years Global Philips Warranty",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "7.2 Liter / 1.4kg Fries"
+    },
+    {
+      "label": "Health",
+      "value": "Up to 90% Less Oil Cooking"
+    },
+    {
+      "label": "Presets",
+      "value": "7 One-Touch Digital Presets & Keep Warm"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
