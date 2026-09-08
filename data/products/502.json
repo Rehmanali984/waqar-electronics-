@@ -1,0 +1,32 @@
+{
+  "id": 502,
+  "category": "microwave-ovens",
+  "brand": "Dawlance",
+  "title": "Dawlance 23L Prime Solo Microwave Oven (DW-297)",
+  "model": "DW-297-GSS",
+  "attr_value": "23L",
+  "price": 33000,
+  "was_price": 36000,
+  "emi": 2750,
+  "rating": 4.7,
+  "reviews": 42,
+  "image": "images/microwave-ovens.jpg",
+  "icon": "microwave",
+  "warranty": "1 Year Magnetron Warranty",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Solo Fast Heating"
+    },
+    {
+      "label": "Timer",
+      "value": "Digital 99-Min Timer"
+    },
+    {
+      "label": "Power Levels",
+      "value": "5 Variable Power Controls"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
