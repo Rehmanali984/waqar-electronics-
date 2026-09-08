@@ -1,0 +1,32 @@
+{
+  "id": 1004,
+  "category": "small-appliances",
+  "brand": "Panasonic",
+  "title": "Panasonic 21L High Power Cyclone Drum Vacuum Cleaner (MC-YL620)",
+  "model": "MC-YL620",
+  "attr_value": "Drum Vacuum 21L",
+  "price": 36500,
+  "was_price": 41000,
+  "emi": 3041,
+  "rating": 4.9,
+  "reviews": 64,
+  "image": "images/vacuum-cleaner.jpg",
+  "icon": "vacuum",
+  "warranty": "1 Year Official Warranty",
+  "specs": [
+    {
+      "label": "Suction",
+      "value": "2000W Tough Metal Body Motor"
+    },
+    {
+      "label": "Capacity",
+      "value": "21 Liter Heavy Dust Tank"
+    },
+    {
+      "label": "Filter",
+      "value": "Washable Antibacterial Filter"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
