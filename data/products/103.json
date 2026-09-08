@@ -1,0 +1,35 @@
+{
+  "id": 103,
+  "category": "air-conditioners",
+  "brand": "Haier",
+  "title": "Haier 1.5 Ton Thunder Inverter AC Heat & Cool (HSU-18HFP)",
+  "model": "HSU-18HFPT3",
+  "attr_value": "1.5 Ton",
+  "price": 168000,
+  "was_price": 184000,
+  "emi": 14000,
+  "rating": 4.8,
+  "reviews": 95,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpLhuDFMtzwLUZHzABsZqRC40EoVMutIbNXXLHDnskftU5uILr5dCQadpJ8GEHR8IBOBm6RZDf1dCf-jlhrP1qlg4ULzVVh9CQylkadLfqR17ddTGzoRwa3_a9-BbiLr-DaqF7HRgB31eBUXvIs7kGFEuNzW7-6SjrjJuoGRJ_1xqmikl2ELQKY4N_dT-SKjddKfN4-FDaRwzvZ1JuKUs6GLVHGuzNIrrIx3aeeYjbWHam-yGSAgaZA",
+  "warranty": "10 Years Compressor + 4 Years PCB Warranty",
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "Thunder T3 Inverter"
+    },
+    {
+      "label": "WiFi Control",
+      "value": "Haier Smart App Support"
+    },
+    {
+      "label": "Electricity Saving",
+      "value": "Up to 65% Energy Saver"
+    },
+    {
+      "label": "Airflow",
+      "value": "4D Continuous Airflow"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
