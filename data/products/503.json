@@ -1,0 +1,32 @@
+{
+  "id": 503,
+  "category": "microwave-ovens",
+  "brand": "Haier",
+  "title": "Haier 28L Grill Digital Microwave Oven (HGN-28100EGB)",
+  "model": "HGN-28100EGB",
+  "attr_value": "28L",
+  "price": 52500,
+  "was_price": 58000,
+  "emi": 4375,
+  "rating": 4.8,
+  "reviews": 38,
+  "image": "images/microwave-ovens.jpg",
+  "icon": "microwave",
+  "warranty": "1 Year Warranty",
+  "specs": [
+    {
+      "label": "Glass",
+      "value": "Full Mirror Black Glass Finish"
+    },
+    {
+      "label": "Grill",
+      "value": "Quartz High Heat Grill"
+    },
+    {
+      "label": "Defrost",
+      "value": "Weight & Time Intelligent Defrost"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
