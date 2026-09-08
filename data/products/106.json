@@ -1,0 +1,31 @@
+{
+  "id": 106,
+  "category": "air-conditioners",
+  "brand": "Dawlance",
+  "title": "Dawlance 2.0 Ton Powercon Inverter AC Heat & Cool",
+  "model": "D-Powercon-24",
+  "attr_value": "2 Ton",
+  "price": 245000,
+  "was_price": 270000,
+  "emi": 20416,
+  "rating": 4.9,
+  "reviews": 38,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCRrpXp5vGlBLOxDOo_VeIAOYrcZ6jarRnLh-qcGNkMVw1Hf5t6q3wAPaemKBYhg5LEbfMiDlxZ988v64-PWwooAwiQH2ClVCcRRqbFOFfUBpdJUacjhaHsC01sszdFSY8MbZ56ibQXcsFkROhVvWHa959Fk0gDm64NHWbq14w5pBuBQQJjR1op99_-TYyIrW_T5LRt7HtiTY6Eg6KdyIpKEBjPfe2qgYrN9wgLWVvvMDI9658QNi32fA",
+  "warranty": "12 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "24000 BTU Heavy Duty"
+    },
+    {
+      "label": "Coverage",
+      "value": "Hall & Large Living Rooms"
+    },
+    {
+      "label": "Fin Protection",
+      "value": "Rust-Free Hydrophilic Gold Fin"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
