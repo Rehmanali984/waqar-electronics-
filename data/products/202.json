@@ -1,0 +1,31 @@
+{
+  "id": 202,
+  "category": "refrigerators",
+  "brand": "Haier",
+  "title": "Haier 16 cu ft Digital Inverter Glass Door Refrigerator (HRF-398IDG)",
+  "model": "HRF-398IDG",
+  "attr_value": "16 cu ft",
+  "price": 136000,
+  "was_price": 149000,
+  "emi": 11333,
+  "rating": 4.8,
+  "reviews": 58,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "warranty": "10 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Compressor",
+      "value": "2nd Gen Inverter Compressor"
+    },
+    {
+      "label": "Cooling System",
+      "value": "Twin Inverter Tech"
+    },
+    {
+      "label": "Freezer Ratio",
+      "value": "Mega Freezer with 4 Drawers"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
