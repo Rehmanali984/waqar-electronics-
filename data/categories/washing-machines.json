@@ -1,0 +1,23 @@
+{
+  "slug": "washing-machines",
+  "name": "Washing Machines",
+  "icon": "local_laundry_service",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCm9tdMWpfp4TYdLEf86pxgej19uaGeQTcNxarbfwhwiz2onZ1SyFE5Vw4jMwtdObKVft1QpH1YujcrGeNAa-HQ3jml3sFOrpD_46o26NV53s9PuaqaEy6fs_clcG0bF2dlor1KCs3ae1MWJ3DKGhZ3f66oNFV6EleG0upqinZh8m6-wlmDj1vlGgPkbWuZYeNMpknZiB8p0-_7NDkIEoT88Pc5ZTQsetv0MYhQhKSgaQ13RqU3OkV9-w",
+  "attrLabel": "Capacity (Kg)",
+  "bannerSubtitle": "Fully Automatic Top-Load, Front-Load & Twin Tub Washers with Direct Drive Inverter motors.",
+  "attributes": [
+    "8 Kg",
+    "9.5 Kg",
+    "10 Kg",
+    "12 Kg",
+    "15 Kg"
+  ],
+  "brands": [
+    "Haier",
+    "Dawlance",
+    "Super Asia",
+    "PEL",
+    "Kenwood",
+    "Samsung"
+  ]
+}
