@@ -1,0 +1,23 @@
+{
+  "slug": "air-coolers",
+  "name": "Air Coolers",
+  "icon": "air",
+  "image": "images/air-coolers.jpg",
+  "attrLabel": "Tank Capacity",
+  "bannerSubtitle": "Honeycomb pad room air coolers with powerful ice-chamber cooling for instant relief.",
+  "attributes": [
+    "25L",
+    "35L",
+    "45L",
+    "55L",
+    "70L"
+  ],
+  "brands": [
+    "Boss",
+    "Super Asia",
+    "Canon",
+    "Nasgas",
+    "PEL",
+    "National"
+  ]
+}
