@@ -1,0 +1,35 @@
+{
+  "id": 105,
+  "category": "air-conditioners",
+  "brand": "Gree",
+  "title": "Gree 1.0 Ton Fairy Series T3 Inverter AC (GS-12FITH)",
+  "model": "GS-12FITH",
+  "attr_value": "1 Ton",
+  "price": 138000,
+  "was_price": 152000,
+  "emi": 11500,
+  "rating": 4.8,
+  "reviews": 52,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpLhuDFMtzwLUZHzABsZqRC40EoVMutIbNXXLHDnskftU5uILr5dCQadpJ8GEHR8IBOBm6RZDf1dCf-jlhrP1qlg4ULzVVh9CQylkadLfqR17ddTGzoRwa3_a9-BbiLr-DaqF7HRgB31eBUXvIs7kGFEuNzW7-6SjrjJuoGRJ_1xqmikl2ELQKY4N_dT-SKjddKfN4-FDaRwzvZ1JuKUs6GLVHGuzNIrrIx3aeeYjbWHam-yGSAgaZA",
+  "warranty": "10 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "12000 BTU"
+    },
+    {
+      "label": "Coverage",
+      "value": "Ideal for 10x12 ft Room"
+    },
+    {
+      "label": "Refrigerant",
+      "value": "R410A"
+    },
+    {
+      "label": "Sound Level",
+      "value": "Ultra Quiet 24dB"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
