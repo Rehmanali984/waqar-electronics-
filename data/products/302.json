@@ -1,0 +1,35 @@
+{
+  "id": 302,
+  "category": "televisions",
+  "brand": "TCL",
+  "title": "TCL 55\" C645 QLED 4K Google Smart TV 120Hz DLG (55C645)",
+  "model": "55C645-QLED",
+  "attr_value": "55 inch",
+  "price": 169000,
+  "was_price": 188000,
+  "emi": 14083,
+  "rating": 4.9,
+  "reviews": 54,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqeFDCF7_CDJYqtgYHHniemMN_ZthYgQ0mFcmLVql8kS6JQHLpUqc7wyzP4Jl8A4GKlUvSgUfelNxbmxXQAjppJrgeROi2STK6GFZJDDkxuJegMVt2553HKv87uqHMitNSLMfJ3Bv2_FRRO5d1KYi-jrF4D-FG7v_58RgRc-tkxR7FaE2kz1KAb-6sdGqx6fLy8AJmBmQ2cgFHEBkxFaB3EfY6saWeCgkUeV70MGwdapIFKf5MHEyG4Q",
+  "warranty": "2 Years Official TCL Pakistan Warranty",
+  "specs": [
+    {
+      "label": "Display",
+      "value": "Quantum Dot 1 Billion+ Colors"
+    },
+    {
+      "label": "Audio",
+      "value": "Dolby Atmos + DTS-HD"
+    },
+    {
+      "label": "Gaming",
+      "value": "Game Master 2.0 with AMD FreeSync"
+    },
+    {
+      "label": "OS",
+      "value": "Google TV with Hands-free Voice"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
