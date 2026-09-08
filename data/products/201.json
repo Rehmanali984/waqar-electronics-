@@ -1,0 +1,35 @@
+{
+  "id": 201,
+  "category": "refrigerators",
+  "brand": "Dawlance",
+  "title": "Dawlance 91999 Avante Inverter Refrigerator (18 cu ft)",
+  "model": "91999-Avante-Inv",
+  "attr_value": "18 cu ft",
+  "price": 142500,
+  "was_price": 161000,
+  "emi": 11875,
+  "rating": 4.9,
+  "reviews": 42,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "warranty": "12 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Energy Rating",
+      "value": "A++ Inverter (55% Saver)"
+    },
+    {
+      "label": "Freshness",
+      "value": "Nature Lock Vegetable Box"
+    },
+    {
+      "label": "Voltage",
+      "value": "Runs on 135V Without Stabilizer"
+    },
+    {
+      "label": "Lighting",
+      "value": "Hybrid Edge LED"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
