@@ -1,0 +1,31 @@
+{
+  "id": 108,
+  "category": "air-conditioners",
+  "brand": "PEL",
+  "title": "PEL 1.5 Ton Jumbo DC Inverter Heat & Cool AC (Pinacle Series)",
+  "model": "PEL-Pinacle-18K",
+  "attr_value": "1.5 Ton",
+  "price": 154000,
+  "was_price": 168000,
+  "emi": 12833,
+  "rating": 4.5,
+  "reviews": 33,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCRrpXp5vGlBLOxDOo_VeIAOYrcZ6jarRnLh-qcGNkMVw1Hf5t6q3wAPaemKBYhg5LEbfMiDlxZ988v64-PWwooAwiQH2ClVCcRRqbFOFfUBpdJUacjhaHsC01sszdFSY8MbZ56ibQXcsFkROhVvWHa959Fk0gDm64NHWbq14w5pBuBQQJjR1op99_-TYyIrW_T5LRt7HtiTY6Eg6KdyIpKEBjPfe2qgYrN9wgLWVvvMDI9658QNi32fA",
+  "warranty": "10 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Compressor",
+      "value": "Aowei T3 Compressor"
+    },
+    {
+      "label": "Cooling",
+      "value": "Full 18000 BTU cooling"
+    },
+    {
+      "label": "Air Throw",
+      "value": "35+ Feet Powerful Throw"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
