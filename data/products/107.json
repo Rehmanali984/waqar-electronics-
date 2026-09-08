@@ -1,0 +1,31 @@
+{
+  "id": 107,
+  "category": "air-conditioners",
+  "brand": "TCL",
+  "title": "TCL 1.5 Ton T-Pro Fresh Air Smart Inverter AC (TAC-18TPRO)",
+  "model": "TAC-18TPRO",
+  "attr_value": "1.5 Ton",
+  "price": 159000,
+  "was_price": 175000,
+  "emi": 13250,
+  "rating": 4.6,
+  "reviews": 41,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpLhuDFMtzwLUZHzABsZqRC40EoVMutIbNXXLHDnskftU5uILr5dCQadpJ8GEHR8IBOBm6RZDf1dCf-jlhrP1qlg4ULzVVh9CQylkadLfqR17ddTGzoRwa3_a9-BbiLr-DaqF7HRgB31eBUXvIs7kGFEuNzW7-6SjrjJuoGRJ_1xqmikl2ELQKY4N_dT-SKjddKfN4-FDaRwzvZ1JuKUs6GLVHGuzNIrrIx3aeeYjbWHam-yGSAgaZA",
+  "warranty": "10 Years Compressor + 4 Years PCB Warranty",
+  "specs": [
+    {
+      "label": "Smart Control",
+      "value": "IoT WiFi App & Google Voice"
+    },
+    {
+      "label": "Deep Clean",
+      "value": "56°C High Temp Self-Sterilization"
+    },
+    {
+      "label": "Energy Saving",
+      "value": "Up to 60%"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
