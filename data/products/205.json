@@ -1,0 +1,31 @@
+{
+  "id": 205,
+  "category": "refrigerators",
+  "brand": "Dawlance",
+  "title": "Dawlance 9170 WB Avante Series Refrigerator (14 cu ft)",
+  "model": "9170-WB-Avante",
+  "attr_value": "14 cu ft",
+  "price": 112000,
+  "was_price": 124000,
+  "emi": 9333,
+  "rating": 4.7,
+  "reviews": 67,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCIO0wF_mUwe-jMsGPzegZ4YXPWBZwVOQ_VkgfYfDSaabVTUL3JlQkPiu5UlKxVJ245k-CwF90fYJBe86cfs9h5mIytJyKEjp4s_36lTGSbeJndgf-_rRbZZGNLhGr4ilrM-AuaR4TwGXOC681HrezsC_qF5BpONzdeK_60VBk1Of1b7HSfJWmsHXEMzIZyhk2AppT7L-U_twq2pja_YCJ4Ta9vlBetsMjs_RGmqMjDKRmaYOtGUUOVsw",
+  "warranty": "12 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Lock",
+      "value": "Health Zone Antibacterial Protect"
+    },
+    {
+      "label": "Shelves",
+      "value": "Spill-Proof Tempered Glass"
+    },
+    {
+      "label": "Gas",
+      "value": "100% CFC Free R600a"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
