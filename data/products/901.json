@@ -1,0 +1,32 @@
+{
+  "id": 901,
+  "category": "water-dispensers",
+  "brand": "Dawlance",
+  "title": "Dawlance 3-Tap Inverter Water Dispenser with Large Refrigerator Cabinet",
+  "model": "WD-1050-Inv",
+  "attr_value": "3-Tap Refrigerator",
+  "price": 46000,
+  "was_price": 51000,
+  "emi": 3833,
+  "rating": 4.8,
+  "reviews": 51,
+  "image": "images/water-dispensers.jpg",
+  "icon": "water_drop",
+  "warranty": "3 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Taps",
+      "value": "3 (Hot, Cold, Ambient Normal)"
+    },
+    {
+      "label": "Tanks",
+      "value": "100% Food Grade Stainless Steel Tanks"
+    },
+    {
+      "label": "Cabinet",
+      "value": "20 Liter Bottom Refrigerator Compartment"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
