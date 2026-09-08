@@ -1,0 +1,31 @@
+{
+  "id": 404,
+  "category": "washing-machines",
+  "brand": "Haier",
+  "title": "Haier 9.5 Kg Front Load Inverter Washing Machine (HW95-BP14986ES8)",
+  "model": "HW95-BP14986ES8",
+  "attr_value": "9.5 Kg",
+  "price": 178000,
+  "was_price": 198000,
+  "emi": 14833,
+  "rating": 5,
+  "reviews": 23,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCm9tdMWpfp4TYdLEf86pxgej19uaGeQTcNxarbfwhwiz2onZ1SyFE5Vw4jMwtdObKVft1QpH1YujcrGeNAa-HQ3jml3sFOrpD_46o26NV53s9PuaqaEy6fs_clcG0bF2dlor1KCs3ae1MWJ3DKGhZ3f66oNFV6EleG0upqinZh8m6-wlmDj1vlGgPkbWuZYeNMpknZiB8p0-_7NDkIEoT88Pc5ZTQsetv0MYhQhKSgaQ13RqU3OkV9-w",
+  "warranty": "10 Years Direct Motion Motor Warranty",
+  "specs": [
+    {
+      "label": "Motor",
+      "value": "Super Silent Direct Motion Inverter Motor"
+    },
+    {
+      "label": "Hygiene",
+      "value": "99.9% Steam Sterilization & Dual Spray"
+    },
+    {
+      "label": "RPM",
+      "value": "1400 RPM High Spin"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
