@@ -1,0 +1,35 @@
+{
+  "id": 101,
+  "category": "air-conditioners",
+  "brand": "Gree",
+  "title": "Gree 1.5 Ton Fairy Series Heat & Cool Inverter AC (GS-18FITH)",
+  "model": "GS-18FITH1",
+  "attr_value": "1.5 Ton",
+  "price": 185000,
+  "was_price": 209000,
+  "emi": 15416,
+  "rating": 4.9,
+  "reviews": 142,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpLhuDFMtzwLUZHzABsZqRC40EoVMutIbNXXLHDnskftU5uILr5dCQadpJ8GEHR8IBOBm6RZDf1dCf-jlhrP1qlg4ULzVVh9CQylkadLfqR17ddTGzoRwa3_a9-BbiLr-DaqF7HRgB31eBUXvIs7kGFEuNzW7-6SjrjJuoGRJ_1xqmikl2ELQKY4N_dT-SKjddKfN4-FDaRwzvZ1JuKUs6GLVHGuzNIrrIx3aeeYjbWHam-yGSAgaZA",
+  "warranty": "10 Years Compressor + 4 Years PCB Warranty",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "T3 Inverter Heat & Cool"
+    },
+    {
+      "label": "SEER Rating",
+      "value": "3.8 Energy Efficient"
+    },
+    {
+      "label": "Refrigerant",
+      "value": "Eco-Friendly R410A"
+    },
+    {
+      "label": "Voltage",
+      "value": "Low Voltage 150V Support"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
