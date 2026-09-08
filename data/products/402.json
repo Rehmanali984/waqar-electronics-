@@ -1,0 +1,31 @@
+{
+  "id": 402,
+  "category": "washing-machines",
+  "brand": "Dawlance",
+  "title": "Dawlance 10 Kg Fully Automatic Top Load Washer (DWT 270 C LVS)",
+  "model": "DWT-270-C-LVS",
+  "attr_value": "10 Kg",
+  "price": 92000,
+  "was_price": 104000,
+  "emi": 7666,
+  "rating": 4.8,
+  "reviews": 44,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCm9tdMWpfp4TYdLEf86pxgej19uaGeQTcNxarbfwhwiz2onZ1SyFE5Vw4jMwtdObKVft1QpH1YujcrGeNAa-HQ3jml3sFOrpD_46o26NV53s9PuaqaEy6fs_clcG0bF2dlor1KCs3ae1MWJ3DKGhZ3f66oNFV6EleG0upqinZh8m6-wlmDj1vlGgPkbWuZYeNMpknZiB8p0-_7NDkIEoT88Pc5ZTQsetv0MYhQhKSgaQ13RqU3OkV9-w",
+  "warranty": "10 Years Motor Warranty",
+  "specs": [
+    {
+      "label": "Feature",
+      "value": "Low Voltage Support (LVS 150V)"
+    },
+    {
+      "label": "Wash",
+      "value": "Pro Fabric Care Wave Drum"
+    },
+    {
+      "label": "Noise",
+      "value": "Silent Drive Operation"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
