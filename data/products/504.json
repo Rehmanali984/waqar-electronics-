@@ -1,0 +1,32 @@
+{
+  "id": 504,
+  "category": "microwave-ovens",
+  "brand": "Homage",
+  "title": "Homage 20L Solo Compact Microwave Oven (HMO-2020S)",
+  "model": "HMO-2020S",
+  "attr_value": "20L",
+  "price": 21500,
+  "was_price": 24500,
+  "emi": 1791,
+  "rating": 4.5,
+  "reviews": 55,
+  "image": "images/microwave-ovens.jpg",
+  "icon": "microwave",
+  "warranty": "1 Year Magnetron Warranty",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "20 Liter Compact"
+    },
+    {
+      "label": "Control",
+      "value": "Easy Mechanical Knob Dial"
+    },
+    {
+      "label": "Efficiency",
+      "value": "700W Quick Heating"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
