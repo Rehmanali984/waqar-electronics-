@@ -1,0 +1,28 @@
+{
+  "id": 702,
+  "category": "deep-freezers",
+  "brand": "Dawlance",
+  "title": "Dawlance 12 cu ft Convertible Inverter Deep Freezer (DF-300)",
+  "model": "DF-300-Inv",
+  "attr_value": "12 cu ft",
+  "price": 106000,
+  "was_price": 119000,
+  "emi": 8833,
+  "rating": 4.8,
+  "reviews": 39,
+  "image": "images/deep-freezers.jpg",
+  "icon": "mode_heat",
+  "warranty": "12 Years Compressor Warranty",
+  "specs": [
+    {
+      "label": "Function",
+      "value": "Convertible Refrigerator to Freezer Mode"
+    },
+    {
+      "label": "Lining",
+      "value": "Embossed Stucco Aluminum Anti-Rust Interior"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
