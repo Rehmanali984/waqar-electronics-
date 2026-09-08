@@ -1,0 +1,31 @@
+{
+  "id": 403,
+  "category": "washing-machines",
+  "brand": "Super Asia",
+  "title": "Super Asia 10 Kg Twin Tub Heavy Duty Washer & Spinner (SA-290)",
+  "model": "SA-290-Shower-Spin",
+  "attr_value": "10 Kg",
+  "price": 37500,
+  "was_price": 42000,
+  "emi": 3125,
+  "rating": 4.7,
+  "reviews": 91,
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCm9tdMWpfp4TYdLEf86pxgej19uaGeQTcNxarbfwhwiz2onZ1SyFE5Vw4jMwtdObKVft1QpH1YujcrGeNAa-HQ3jml3sFOrpD_46o26NV53s9PuaqaEy6fs_clcG0bF2dlor1KCs3ae1MWJ3DKGhZ3f66oNFV6EleG0upqinZh8m6-wlmDj1vlGgPkbWuZYeNMpknZiB8p0-_7NDkIEoT88Pc5ZTQsetv0MYhQhKSgaQ13RqU3OkV9-w",
+  "warranty": "2 Years Motor Warranty",
+  "specs": [
+    {
+      "label": "Body",
+      "value": "Rust-Free 100% Virgin Plastic Body"
+    },
+    {
+      "label": "Spin",
+      "value": "Powerful Super Jet Air Dry Spinner"
+    },
+    {
+      "label": "Power",
+      "value": "Low Power Consumption Motor"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": false
+}
