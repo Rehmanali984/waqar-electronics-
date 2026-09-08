@@ -1,0 +1,36 @@
+{
+  "id": 601,
+  "category": "air-coolers",
+  "brand": "Boss",
+  "title": "Boss ECM-9000 Pro Desert Air Cooler (55L Tank with Ice Chamber)",
+  "model": "ECM-9000-Pro",
+  "attr_value": "55L",
+  "price": 28500,
+  "was_price": 32000,
+  "emi": 2375,
+  "rating": 4.9,
+  "reviews": 62,
+  "image": "images/air-coolers.jpg",
+  "icon": "air",
+  "warranty": "1 Year Brand Motor Warranty",
+  "specs": [
+    {
+      "label": "Pads",
+      "value": "3-Side High Density Honeycomb Pads"
+    },
+    {
+      "label": "Ice Chamber",
+      "value": "Dual Top Ice Compartments"
+    },
+    {
+      "label": "Throw",
+      "value": "Powerful 45 Ft Air Throw"
+    },
+    {
+      "label": "Inverter Support",
+      "value": "Runs easily on Solar/UPS"
+    }
+  ],
+  "featured": true,
+  "lowest_30_days": true
+}
