@@ -1,0 +1,32 @@
+{
+  "id": 1003,
+  "category": "small-appliances",
+  "brand": "Panasonic",
+  "title": "Panasonic Heavy Duty 6lb Deluxe Dry Iron (NI-22AWT)",
+  "model": "NI-22AWT",
+  "attr_value": "Heavy Dry Iron",
+  "price": 12500,
+  "was_price": 14500,
+  "emi": 1041,
+  "rating": 5,
+  "reviews": 140,
+  "image": "images/heavy-irons.jpg",
+  "icon": "iron",
+  "warranty": "1 Year Official Warranty",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "Authentic Heavy 6 lbs Iron"
+    },
+    {
+      "label": "Soleplate",
+      "value": "Non-Stick Gold Teflon Coating"
+    },
+    {
+      "label": "Origin",
+      "value": "Made in Malaysia"
+    }
+  ],
+  "featured": false,
+  "lowest_30_days": true
+}
